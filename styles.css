@@ -9,9 +9,6 @@
 body {
     background-color: #5D5C61;
     color: white;
-}
-
-p, li {
     font-size: x-large;
 }
 
@@ -19,13 +16,26 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    padding-top: 20px;
+}
 .nav-link, .nav-link-active {
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
+    justify-content: center;
 }
 
-.nav-bar-brand {
+#headshot {
+    justify-content: center;
     align-items: center;
+    overflow: hidden
+}
+#headshot img {
+    display: block;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
 }
 
 
@@ -37,17 +47,22 @@ h1 {
 
 #nav-main {
     justify-content: center;
-    background-color: #B1A296;
+    background-color: black;
 
 }
 
 #about-me-info {
-    padding-right: 15%;
+    padding: 5%;
+    justify-content: center;
 }
 
 #experience {
     background-color: #B1A296;
     padding: 20px 20px;
+}
+
+#experience-info.h1 {
+    text-align: left;
 }
 
 #contact {
@@ -64,3 +79,6 @@ h1 {
     text-align: center;
 }
 
+#projects.h1{
+    text-align: center;
+}
