@@ -19,10 +19,17 @@ h1 {
 h2 {
     padding-top: 20px;
 }
-.nav-link, .nav-link-active {
+
+
+.nav-link,
+.nav-link-active {
     color: white;
     font-size: xx-large;
     justify-content: center;
+}
+
+.carousel-item {
+    text-align: center;
 }
 
 #headshot {
@@ -30,6 +37,7 @@ h2 {
     align-items: center;
     overflow: hidden
 }
+
 #headshot img {
     display: block;
     flex-shrink: 0;
@@ -37,7 +45,6 @@ h2 {
     min-height: 100%;
     left: 0;
 }
-
 
 #projects.img {
     width: 100%;
@@ -47,7 +54,6 @@ h2 {
 
 #nav-main {
     justify-content: center;
-    background-color: black;
 
 }
 
@@ -79,6 +85,6 @@ h2 {
     text-align: center;
 }
 
-#projects.h1{
+#projects.h1 {
     text-align: center;
 }

@@ -24,7 +24,7 @@
 
 <body>
   <div class="container-fluid" id="nav-main">
-    <nav class="navbar fixed navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
       <!-- <a class="navbar-brand" href="#" id="logo">Logo</a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,12 +82,14 @@
             fields. I am excited and passionate to fill this website out with projects and showcase the development of
             my
             skills.
-            I am a dedicated, hard-working individual who will always go above and beyond for you. Currently looking for new 
-            opportunities. Please fill free to reach out via: the contact form below, send an email to alexmendezcs@gmail.com 
-            or you can always find me on <a href="https://www.linkedin.com/in/alexmendezcs/">LinkedIn</a>! 
+            I am a dedicated, hard-working individual who will always go above and beyond for you. Currently looking for
+            new
+            opportunities. Please fill free to reach out via: the contact form below, send an email to
+            alexmendezcs@gmail.com
+            or you can always find me on <a href="https://www.linkedin.com/in/alexmendezcs/">LinkedIn</a>!
           </p>
           <hr>
-          
+
         </div>
 
       </div>
@@ -116,7 +118,8 @@
           PowerBI to
           gain visibility of compliance analyst's customers sites, their connectivity and callback date.
         <p><strong>Skills: </strong>Data Analysis · Customer Relationship Management (CRM) · Time Management
-          · Environmental Compliance · Risk Assessment · Collaboration · Microsoft Excel · Microsoft PowerPoint · Microsoft Power BI ·
+          · Environmental Compliance · Risk Assessment · Collaboration · Microsoft Excel · Microsoft PowerPoint ·
+          Microsoft Power BI ·
           SQL · Salesforce
         </p>
         </p>
@@ -132,8 +135,9 @@
           workgroups as appropriate, including software developers, projects managers and account managers. Follow
           through with
           resolution and manage documentation appropriately using established processes and procedures.
-        <p><strong>Skills: </strong>· Teamwork · Problem-Solving · Adaptibility · Troubleshooting · Critical Thinking · 
-        Attention to Detail · Customer Service · Communication · Help Desk Support · Leadership · Innovation · Interpersonal Skills</p>
+        <p><strong>Skills: </strong>· Teamwork · Problem-Solving · Adaptibility · Troubleshooting · Critical Thinking ·
+          Attention to Detail · Customer Service · Communication · Help Desk Support · Leadership · Innovation ·
+          Interpersonal Skills</p>
         </p>
         <br>
       </div>
@@ -148,19 +152,30 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/powerbi.png" class="d-block w-100 h-25" alt="...">
-          <div class="carousel-caption d-none d-md-block">
             <h2>AMT Connection Status</h2>
-            <p>Created a report from scratch using PowerBI to gain visibility on connectivity and auto-dials across the entire GVR
-              network. Gained insight on alarm and customer repeat offenders. Potential to remove entire alarm category/type from 
+            <p>Created a report from scratch using PowerBI to gain visibility on connectivity and auto-dials across the
+              entire GVR
+              network. Gained insight on alarm and customer repeat offenders. Potential to remove entire alarm
+              category/type from
               alarm processing queue.
             </p>
-          </div>
+            <p><strong>Technologies</strong>: PowerBI, SQL </p>
         </div>
         <div class="carousel-item">
-          <img src="img/javascript.png" class="d-block w-100 h-25" alt="...">
+          <img src="img/bootstrap.png" class="d-block w-100 h-25" alt="...">
+            <h2>Personal Website</h2>
+            <p>The aim of this website is to rebuild and work on my fundamentals in HTML, CSS, JavaScript and learn Bootstrap. There
+              are plenty of things left to incorporate and build on. The code of this site is being maintained with Git. Future work: incorporating
+              more Javascript functionality, more personality in graphic design and plenty of projects to showcase here!
+            </p>
+            <p><strong>Technologies</strong>: HTML, CSS, Javascript, Bootstrap, Git, Linux</p>
         </div>
         <div class="carousel-item">
           <img src="img/python.png" class="d-block w-100 h-25" alt="...">
+          <h2>Python Project</h2>
+          <p>In Progress....
+          </p>
+          <p><strong>Technologies</strong>: HTML, CSS, Javascript, Bootstrap, Git, Linux</p>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -183,24 +198,24 @@
     <div class="container py-4">
 
       <!-- Bootstrap 5 starter form -->
-      <form id="contactForm">
+      <form id="contact-form" method="post" action="contact.php" role="form">
 
         <!-- Name input -->
         <div class="mb-3">
           <label class="form-label" for="name">Name</label>
-          <input class="form-control" id="name" type="text" placeholder="Name" />
+          <input class="form-control" name="name" id="name" type="text" placeholder="Name" />
         </div>
 
         <!-- Email address input -->
         <div class="mb-3">
           <label class="form-label" for="emailAddress">Email Address</label>
-          <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+          <input class="form-control" name="mail" id="emailAddress" type="email" placeholder="Email Address" />
         </div>
 
         <!-- Message input -->
         <div class="mb-3">
           <label class="form-label" for="message">Message</label>
-          <textarea class="form-control" id="message" type="text" placeholder="Message"
+          <textarea class="form-control" name="message" id="message" type="text" placeholder="Message"
             style="height: 10rem;"></textarea>
         </div>
 
