@@ -24,10 +24,9 @@
 
 <body>
   <div class="container-fluid" id="nav-main">
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+    <nav class="navbar navbar-expand-sm bg-transparent">
       <!-- <a class="navbar-brand" href="#" id="logo">Logo</a> -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -53,11 +52,11 @@
   </div>
 
   <div class="container-fluid" id="about-me">
-    <div class="row no-gutters">
-      <div class="col-sm-5" id="headshot">
+    <div class="row">
+      <div class="col-md-5" id="headshot">
         <img src="img/headshots/headshot_secondary.png" alt="headshot">
       </div>
-      <div class="col-sm-7" id="about-me-info">
+      <div class="col-md-7" id="about-me-info">
         <div class="container-fluid ">
           <h1>Alejandro Mendez</h1>
           <hr>
@@ -99,10 +98,10 @@
 
   <div class="container-fluid" id="experience">
     <div class="row">
-      <div class="col-lg-2">
+      <div class="col-md-2">
         <img src="img/invenco.jpeg" alt="invenco_logo">
       </div>
-      <div class="col-lg-8" id="experience-info">
+      <div class="col-md-8" id="experience-info">
         <h2>Invenco by GVR</h2>
         <hr>
         <h3><em>Technical Compliance Analyst</em></h3>
@@ -152,23 +151,25 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/powerbi.png" class="d-block w-100 h-25" alt="...">
-            <h2>AMT Connection Status</h2>
-            <p>Created a report from scratch using PowerBI to gain visibility on connectivity and auto-dials across the
-              entire GVR
-              network. Gained insight on alarm and customer repeat offenders. Potential to remove entire alarm
-              category/type from
-              alarm processing queue.
-            </p>
-            <p><strong>Technologies</strong>: PowerBI, SQL </p>
+          <h2>AMT Connection Status</h2>
+          <p>Created a report from scratch using PowerBI to gain visibility on connectivity and auto-dials across the
+            entire GVR
+            network. Gained insight on alarm and customer repeat offenders. Potential to remove entire alarm
+            category/type from
+            alarm processing queue.
+          </p>
+          <p><strong>Technologies</strong>: PowerBI, SQL </p>
         </div>
         <div class="carousel-item">
           <img src="img/bootstrap.png" class="d-block w-100 h-25" alt="...">
-            <h2>Personal Website</h2>
-            <p>The aim of this website is to rebuild and work on my fundamentals in HTML, CSS, JavaScript and learn Bootstrap. There
-              are plenty of things left to incorporate and build on. The code of this site is being maintained with Git. Future work: incorporating
-              more Javascript functionality, more personality in graphic design and plenty of projects to showcase here!
-            </p>
-            <p><strong>Technologies</strong>: HTML, CSS, Javascript, Bootstrap, Git, Linux</p>
+          <h2>Personal Website</h2>
+          <p>The aim of this website is to rebuild and work on my fundamentals in HTML, CSS, JavaScript and learn
+            Bootstrap. There
+            are plenty of things left to incorporate and build on. The code of this site is being maintained with Git.
+            Future work: incorporating
+            more Javascript functionality, more personality in graphic design and plenty of projects to showcase here!
+          </p>
+          <p><strong>Technologies</strong>: HTML, CSS, Javascript, Bootstrap, Git, Linux</p>
         </div>
         <div class="carousel-item">
           <img src="img/python.png" class="d-block w-100 h-25" alt="...">
@@ -197,8 +198,13 @@
     <!-- Wrapper container -->
     <div class="container py-4">
 
+      <!-- <form action="https://formsubmit.co/your@email.com" method="POST">
+        <input type="text" name="name" required>
+        <input type="email" name="email" required>
+        <button type="submit">Send</button>
+      </form> -->
       <!-- Bootstrap 5 starter form -->
-      <form id="contact-form" method="post" action="contact.php" role="form">
+      <form action="https://formsubmit.co/alexmendezcs@gmail.com" method="POST" id="contact-form">
 
         <!-- Name input -->
         <div class="mb-3">
@@ -209,7 +215,7 @@
         <!-- Email address input -->
         <div class="mb-3">
           <label class="form-label" for="emailAddress">Email Address</label>
-          <input class="form-control" name="mail" id="emailAddress" type="email" placeholder="Email Address" />
+          <input class="form-control" name="mail" id="emailAddress" type="email" placeholder="Email Address" required>
         </div>
 
         <!-- Message input -->

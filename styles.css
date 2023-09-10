@@ -39,11 +39,9 @@ h2 {
 }
 
 #headshot img {
-    display: block;
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    left: 0;
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
 }
 
 #projects.img {
@@ -54,7 +52,6 @@ h2 {
 
 #nav-main {
     justify-content: center;
-
 }
 
 #about-me-info {
