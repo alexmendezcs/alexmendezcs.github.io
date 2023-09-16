@@ -69,6 +69,8 @@ i {
 
 #nav-main {
     justify-content: center;
+    border-bottom: 3px solid black;
+
 }
 
 #about-me-info {
